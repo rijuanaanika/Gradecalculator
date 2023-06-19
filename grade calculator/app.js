@@ -51,7 +51,7 @@ function chngGrade(event) {
   } else if (inputNumber<40) {
     grade = 'F';
     countF++;
-  }
+  } else alert('Highest number can be 100');
 
   // Update grade
   aCount.textContent = countA;
